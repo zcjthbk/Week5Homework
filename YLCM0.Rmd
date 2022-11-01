@@ -141,7 +141,7 @@ summary(mod4)
 Q13. The final question involves using Rstudio to push a file to GitHub.
 
 Navigate to this repo: https://github.com/PALS0043/Week5Homework
-Hit the green code button and copy the https code to clone it.
+Hit the green code butto n and copy the https code to clone it.
 Open a new project in RStudio linked to this repo.
 Copy this homework file to the project folder on your computer.
 Use the git pane to commit and push the homework file to GitHub.
