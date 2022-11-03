@@ -34,6 +34,7 @@ self <- read.csv('self.csv')
 gambles <- read.csv('gambles3.csv') 
 library(tidyverse)
 library(lmerTest)
+
 ```
 
 
@@ -53,7 +54,7 @@ Q3. Plot the data showing how age predicts self reported risk taking, with a dif
 
 HINT: what data type does sex need to be for this to work?
 ```{r q03}
-#change sex to binary/categorical 
+#change sex to binary / categorical
 self$sex <- as.factor(self$sex)
 
 ggplot(self ,aes(x=age_cs, y=riskSR, group=sex, color=sex))+
