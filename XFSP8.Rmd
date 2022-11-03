@@ -34,7 +34,6 @@ self <- read.csv('self.csv')
 gambles <- read.csv('gambles3.csv') 
 library(tidyverse)
 library(lmerTest)
-
 ```
 
 
