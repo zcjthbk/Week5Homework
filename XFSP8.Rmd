@@ -118,7 +118,7 @@ combi %>%
 
 Q10. How do you interpret this in words?
 ```{r q10}
-#when trials are more risky (trialtype=1) the tendency to choose the safer option increases
+#when trials are more risky (trialtype = 1) the tendency to choose the safer option increases
 ```
 
 Q11. We want to model RiskyChoice as the dependent variable, with trialtype and age as predictors. What random effects should we consider?
